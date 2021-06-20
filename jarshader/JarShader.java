@@ -1,7 +1,9 @@
-
 ///usr/bin/env jbang "$0" "$@" ; exit $?
+
 //DEPS info.picocli:picocli:4.5.0 info.picocli:picocli-codegen:4.6.1
 //DEPS org.apache.maven.plugins:maven-shade-plugin:3.2.4
+//JAVA 16
+
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;

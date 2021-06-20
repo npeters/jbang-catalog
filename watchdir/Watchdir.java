@@ -4,6 +4,8 @@
 //DEPS io.methvin:directory-watcher:0.15.0
 //DEPS org.slf4j:slf4j-simple:1.7.9
 
+//JAVA 16
+
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -39,7 +41,7 @@ class Watchdir implements Callable<Integer> {
 
     public static void main(String... args) {
 
-        int exitCode = new CommandLine(new ZTProcess()).execute(args);
+        int exitCode = new CommandLine(new Watchdir()).execute(args);
         System.exit(exitCode);
     }
 
