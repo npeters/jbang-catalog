@@ -1,0 +1,12 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "jarshader": {
+      "script-ref": "jarshader/JarShader.java"
+    },
+    "watchdir": {
+      "script-ref": "watchdir/Watchdir.java"
+    }
+  },
+  "templates": {}
+}
